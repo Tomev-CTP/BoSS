@@ -252,12 +252,6 @@ class TestBosonSamplingClassicalSimulationStrategies(unittest.TestCase):
                                                      StrategyTypes.FIXED_LOSS)
         self.__test_haar_random_interferometers_approximation_distance_from_ideal(strategy_factory)
 
-    def test_haar_random_interferometers_distance_for_cliffords_r_strategy(self) -> None:
-        self.__set_experiment_configuration_for_lossless_haar_random()
-        strategy_factory = SimulationStrategyFactory(self._haar_random_experiment_configuration,
-                                                     StrategyTypes.CLIFFORD_R)
-        self.__test_haar_random_interferometers_approximation_distance_from_ideal(strategy_factory)
-
     def test_haar_random_interferometers_distance_for_generalized_cliffords_strategy(self) -> None:
         self.__set_experiment_configuration_for_lossless_haar_random()
         strategy_factory = SimulationStrategyFactory(self._haar_random_experiment_configuration,
@@ -324,3 +318,4 @@ class TestBosonSamplingClassicalSimulationStrategies(unittest.TestCase):
         random_outcome_index = randint(0, len(current_probabilities))
         self.assertAlmostEqual(number_of_outcomes ** (-1), average(probabilities_list[random_outcome_index]),
                                delta=error_bound)
+
