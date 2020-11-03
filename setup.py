@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="BoSS-pkg-Tomev",
+    name="BoSS-Tomev",
     version="0.0.1",
     author="Tomasz Rybotycki",
     author_email="rybotycki.tomasz+boss@gmail.com",
