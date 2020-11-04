@@ -10,9 +10,9 @@ from typing import List
 from numpy import ndarray, zeros
 from scipy import special
 
-from src.Boson_Sampling_Utilities import calculate_permanent, generate_lossy_inputs, generate_possible_outputs, \
+from BoSS.Boson_Sampling_Utilities import calculate_permanent, generate_lossy_inputs, generate_possible_outputs, \
     modes_state_to_particle_state, particle_state_to_modes_state
-from src.network_simulation_strategy.NetworkSimulationStrategy import NetworkSimulationStrategy
+from BoSS.network_simulation_strategy.NetworkSimulationStrategy import NetworkSimulationStrategy
 
 
 # TODO TR: This class should be placed in separate folder

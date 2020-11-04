@@ -5,7 +5,7 @@ __author__ = 'Tomasz Rybotycki'
 import itertools
 from typing import List, Optional
 
-from numpy import complex128, ndarray, zeros, diag, sqrt, zeros_like, ones_like, array, block
+from numpy import array, block, complex128, diag, ndarray, ones_like, sqrt, zeros, zeros_like
 from numpy.linalg import svd
 from scipy.special import binom
 

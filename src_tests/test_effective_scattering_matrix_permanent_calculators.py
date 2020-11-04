@@ -15,8 +15,8 @@ from typing import List
 
 from numpy import complex128
 
-from src.Boson_Sampling_Utilities import ChinHuhPermanentCalculator, EffectiveScatteringMatrixPermanentCalculator
-from src.Quantum_Computations_Utilities import generate_haar_random_unitary_matrix
+from BoSS.Boson_Sampling_Utilities import ChinHuhPermanentCalculator, EffectiveScatteringMatrixPermanentCalculator
+from BoSS.Quantum_Computations_Utilities import generate_haar_random_unitary_matrix
 
 
 class TestEffectiveScatteringMatrixPermanentsCalculators(unittest.TestCase):

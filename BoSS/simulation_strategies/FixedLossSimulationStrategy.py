@@ -6,9 +6,9 @@ from typing import List
 from numpy import conjugate, exp, ndarray, sqrt, zeros
 from numpy.random import rand
 
-from src.network_simulation_strategy.LosslessNetworkSimulationStrategy import LosslessNetworkSimulationStrategy
-from src.network_simulation_strategy.NetworkSimulationStrategy import NetworkSimulationStrategy
-from src.simulation_strategies.SimulationStrategy import SimulationStrategy
+from BoSS.network_simulation_strategy.LosslessNetworkSimulationStrategy import LosslessNetworkSimulationStrategy
+from BoSS.network_simulation_strategy.NetworkSimulationStrategy import NetworkSimulationStrategy
+from BoSS.simulation_strategies.SimulationStrategy import SimulationStrategy
 
 
 class FixedLossSimulationStrategy(SimulationStrategy):

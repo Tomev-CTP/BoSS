@@ -4,9 +4,9 @@ from typing import List
 
 from numpy import delete, ndarray, vstack, zeros_like
 
-from src.Boson_Sampling_Utilities import prepare_interferometer_matrix_in_expanded_space
-from src.simulation_strategies.GeneralizedCliffordsSimulationStrategy import GeneralizedCliffordsSimulationStrategy
-from src.simulation_strategies.SimulationStrategy import SimulationStrategy
+from BoSS.Boson_Sampling_Utilities import prepare_interferometer_matrix_in_expanded_space
+from BoSS.simulation_strategies.GeneralizedCliffordsSimulationStrategy import GeneralizedCliffordsSimulationStrategy
+from BoSS.simulation_strategies.SimulationStrategy import SimulationStrategy
 
 
 class LossyNetworksGeneralizedCliffordsSimulationStrategy(SimulationStrategy):

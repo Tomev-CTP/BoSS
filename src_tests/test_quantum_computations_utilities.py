@@ -6,7 +6,7 @@ from math import isclose
 from numpy import conjugate, identity, ndarray, transpose, complex128
 from sys import float_info
 
-from src.Quantum_Computations_Utilities import generate_haar_random_unitary_matrix
+from BoSS.Quantum_Computations_Utilities import generate_haar_random_unitary_matrix
 
 
 class TestQuantumComputationsUtilities(unittest.TestCase):

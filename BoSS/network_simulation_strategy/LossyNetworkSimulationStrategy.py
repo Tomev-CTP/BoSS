@@ -1,7 +1,7 @@
 from numpy import delete, ndarray, vstack, zeros_like
 
-from src.Boson_Sampling_Utilities import prepare_interferometer_matrix_in_expanded_space
-from src.network_simulation_strategy.NetworkSimulationStrategy import NetworkSimulationStrategy
+from BoSS.Boson_Sampling_Utilities import prepare_interferometer_matrix_in_expanded_space
+from BoSS.network_simulation_strategy.NetworkSimulationStrategy import NetworkSimulationStrategy
 
 
 class LossyNetworkSimulationStrategy(NetworkSimulationStrategy):

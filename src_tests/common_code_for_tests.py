@@ -4,10 +4,10 @@ from typing import List
 
 from numpy import zeros
 
-from src.Boson_Sampling_Utilities import generate_possible_outputs
-from src.BosonSamplingSimulator import BosonSamplingSimulator
-from src.LossyBosonSamplingExactDistributionCalculators import BosonSamplingExperimentConfiguration
-from src.simulation_strategies.SimulationStrategy import SimulationStrategy
+from BoSS.Boson_Sampling_Utilities import generate_possible_outputs
+from BoSS.BosonSamplingSimulator import BosonSamplingSimulator
+from BoSS.LossyBosonSamplingExactDistributionCalculators import BosonSamplingExperimentConfiguration
+from BoSS.simulation_strategies.SimulationStrategy import SimulationStrategy
 
 
 class ApproximateDistributionCalculator:

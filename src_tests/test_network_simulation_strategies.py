@@ -5,13 +5,13 @@ from typing import List
 
 from numpy import asarray, block, eye, ndarray, zeros_like
 
-from src.BosonSamplingSimulator import BosonSamplingSimulator
-from src.LossyBosonSamplingExactDistributionCalculators import (
+from BoSS.BosonSamplingSimulator import BosonSamplingSimulator
+from BoSS.LossyBosonSamplingExactDistributionCalculators import (
     BosonSamplingExperimentConfiguration, BosonSamplingWithUniformLossesExactDistributionCalculator)
-from src.network_simulation_strategy.LossyNetworkSimulationStrategy import LossyNetworkSimulationStrategy
-from src.Quantum_Computations_Utilities import count_total_variation_distance, \
+from BoSS.network_simulation_strategy.LossyNetworkSimulationStrategy import LossyNetworkSimulationStrategy
+from BoSS.Quantum_Computations_Utilities import count_total_variation_distance, \
     count_tv_distance_error_bound_of_experiment_results, generate_haar_random_unitary_matrix
-from src.SimulationStrategyFactory import SimulationStrategyFactory, StrategyTypes
+from BoSS.SimulationStrategyFactory import SimulationStrategyFactory, StrategyTypes
 from src_tests.common_code_for_tests import ApproximateDistributionCalculator
 
 

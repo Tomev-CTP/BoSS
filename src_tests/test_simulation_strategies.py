@@ -16,16 +16,16 @@ from numpy import array, asarray, average
 from numpy.random import randint
 from scipy.special import binom
 
-from src.Boson_Sampling_Utilities import calculate_number_of_possible_n_particle_m_mode_output_states
-from src.LossyBosonSamplingExactDistributionCalculators import (
+from BoSS.Boson_Sampling_Utilities import calculate_number_of_possible_n_particle_m_mode_output_states
+from BoSS.LossyBosonSamplingExactDistributionCalculators import (
     BosonSamplingExactDistributionCalculator,
     BosonSamplingExperimentConfiguration,
     BosonSamplingWithFixedLossesExactDistributionCalculator,
     BosonSamplingWithUniformLossesExactDistributionCalculator)
-from src.Quantum_Computations_Utilities import count_total_variation_distance, \
+from BoSS.Quantum_Computations_Utilities import count_total_variation_distance, \
     count_tv_distance_error_bound_of_experiment_results, generate_haar_random_unitary_matrix
-from src.simulation_strategies.SimulationStrategy import SimulationStrategy
-from src.SimulationStrategyFactory import SimulationStrategyFactory, StrategyTypes
+from BoSS.simulation_strategies.SimulationStrategy import SimulationStrategy
+from BoSS.SimulationStrategyFactory import SimulationStrategyFactory, StrategyTypes
 from src_tests.common_code_for_tests import ApproximateDistributionCalculator
 
 

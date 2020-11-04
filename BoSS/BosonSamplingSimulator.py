@@ -4,7 +4,7 @@ from typing import List
 
 from numpy import ndarray
 
-from src.simulation_strategies.SimulationStrategy import SimulationStrategy
+from BoSS.simulation_strategies.SimulationStrategy import SimulationStrategy
 
 
 class BosonSamplingSimulator:

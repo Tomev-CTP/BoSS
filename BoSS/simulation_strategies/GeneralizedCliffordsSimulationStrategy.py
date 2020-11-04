@@ -10,8 +10,8 @@ from numpy import ndarray
 from numpy.linalg import norm
 from numpy.random import choice
 
-from src.Boson_Sampling_Utilities import ChinHuhPermanentCalculator
-from src.simulation_strategies.SimulationStrategy import SimulationStrategy
+from BoSS.Boson_Sampling_Utilities import ChinHuhPermanentCalculator
+from BoSS.simulation_strategies.SimulationStrategy import SimulationStrategy
 
 
 class GeneralizedCliffordsSimulationStrategy(SimulationStrategy):
