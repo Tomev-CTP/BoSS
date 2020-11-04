@@ -19,8 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'dataclasses', 'numpy', 'scipy', 'qutip'  # Qutip may have to be installed via Conda
-        # https://anaconda.org/conda-forge/qutip
+        'dataclasses', 'numpy', 'scipy'
     ],
     python_requires='>=3.6',
 )
